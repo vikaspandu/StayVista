@@ -1,0 +1,42 @@
+<style>
+ .addHome{
+    background-color: #00b5c2 !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top px-4">
+    <div class="container-fluid" style="background-color: white;">
+      
+      <a class="navbar-brand d-flex align-items-center justify-content-center" href="/listings">
+        <img src="../images/logo (3).png" alt="logo" width="38" height="46">
+        <span class="h3" style="color: #00b5c2"><b> &nbsp; &nbsp; TravelNest Solutions</b></span>
+      </a>
+      
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link addHome" href="/listings/new">Add your home</a>
+          <% if(!currUser){ %>
+            <a class="nav-link" href="/signup"><b>Sign up</b></a>
+          <a class="nav-link" href="/login"><b>Log in</b></a>
+          <% } %>
+          <% if(currUser){ %>
+            <a class="nav-link" href="/logout"><b>Log out</b></a>
+          <% } %>
+        </div>
+             
+      </div>
+
+    </div>
+  </nav>
