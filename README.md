@@ -2,7 +2,7 @@
 I developed a full-stack web application inspired by Airbnb with CRUD operations, user authentication, and data validation, integrating MapBox for location services and Cloudinary for image management.
 
 ## Authors
-- [Nitish Singh](https://github.com/NitishSP)
+- [Vikas Pandey](https://github.com/vikaspandu)
 
 ## Technologies Used
 
@@ -96,5 +96,4 @@ node app.js
 ```
 
 ## Links
-- **Linkedin:** https://www.linkedin.com/in/nitish-singh-650408265/
 - **Project Link:** https://airbnbclone-f3d9.onrender.com/listings
